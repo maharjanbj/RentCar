@@ -1,0 +1,59 @@
+#book{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+.book{
+    background: linear-gradient(rgba(33,33,33,0.522), rgba(33,33,33,0.522)), url('../../public/img/mustang.jpg');
+    height: auto;
+    width: 80%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 30px;
+}
+@media only screen and (max-width: 550px) {
+    .book{
+        width: auto;
+    }
+}
+@media only screen and (min-width: 204px) {
+    .book{
+        overflow: hidden;
+    }
+}
+.book .book_container h1{
+    text-align: center; 
+    color: #fff;
+    margin: 0 20px;
+    font-size: 3rem;
+    font-weight: 1000;
+    font-family: 'Courier New', Courier, monospace;
+}
+.book .book_container form{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+}
+.book .book_container form input{
+    padding: 5px 5px;
+    padding-right: 150px;
+    border-radius: 22px;
+    border: 1px solid #fff;
+}
+.book .book_container button{
+    padding: 10px 70px;
+    margin: 0 30px;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 22px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.book .book_container button:hover{
+    color: #4da6ff;
+    background-color: #fff;
+}

@@ -1,0 +1,45 @@
+.about{
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about .about_container{
+    width: 80%;
+}
+.about .about_container h1{
+    text-align: center;
+    color: #4da6ff;
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.about .about_container b{
+    display: block;
+    font-size: 1.2rem;
+}
+.about .about_container p{
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+}
+.about .about_container .more_info{
+    border: 1px solid black;
+    border-radius: 22px;
+    padding: 10px 10px;
+    width: 50%;
+    height: auto;
+}
+.about .about_container .more_info h2{
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.about .about_container .more_info ul{
+    list-style: none;
+    text-decoration: none;
+}
+.about .about_container .more_info ul li{
+    padding: 10px 10px;
+}
+.about .about_container .more_info ul li i{
+    padding: 0 10px;
+}

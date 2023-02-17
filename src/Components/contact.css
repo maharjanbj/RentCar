@@ -1,0 +1,52 @@
+.contact{
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+.contact_container{
+    height: auto;
+    width: 60%;
+    background: linear-gradient(rgba(33,33,33,0.522), rgba(33,33,33,0.522)), url('../../public/img/shelby_mustang.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 0;
+    text-align: center;
+}
+.contact .contact_container h1{
+    color: #4da6ff;
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.contact .contact_container form{
+    font-size: 2rem;
+}
+.contact .contact_container form label{
+    color: #4da6ff;
+}
+.contact .contact_container form input{
+    padding: 5px 5px;
+    padding-right: 150px;
+    border-radius: 22px;
+    border: 2px solid #fff;
+}
+.contact .contact_container form input .textarea{
+    padding-bottom: 150px;
+	width: 610px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+button{
+    padding: 10px 10px;
+    border-radius: 22px;
+    color: #4da6ff;
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+button:hover{    
+    color: #4da6ff;
+    background-color: #fff;
+    cursor: pointer;
+}

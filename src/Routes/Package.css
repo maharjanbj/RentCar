@@ -1,0 +1,67 @@
+.package{
+    padding: 10px 0;
+    text-align: center;
+    justify-content: center;
+}
+.package h1{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #4da6ff;
+}
+.package p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.package .package_row{
+    justify-content: center;
+    align-items: center;
+}
+.package .package_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 10px 10px;
+    margin: 0 20px;
+}
+.package .package_container .box_package{
+    flex: 1 1 20px;
+    padding: 10px 0;
+}
+.package .package_container .box_package h3, p{
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.package .package_container .box_package .review{
+    background-color: #4da6ff;
+    color: #fff;
+    height: 300px;
+    padding: 40px 0;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.package .package_container .box_package .review span{
+    color: #fff;
+}
+.package .package_container .box_package .review button{
+	margin: 20px;
+	padding: 10px 50px;
+	border-radius: 25px;
+	background-color: transparent;
+	color: white;
+    border: 1px solid #fff;
+}
+.package .package_container .box_package .review button:hover{
+	background-color: white;
+	color: #4da6ff;
+}
+
+@media screen and (max-width: 890px) {
+    .package .package_container .box_package{
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        flex: 100%;
+    }
+}
